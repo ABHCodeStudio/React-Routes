@@ -14,9 +14,9 @@ const Products = () => {
     <div className='container'>
       {data.map((item, idx) => (
         <div className='box'>
+          <img src={item.image} />
           <h1>{item.title}</h1>
           <p>{item.category}</p>
-          <img src={item.image} />
 
         </div>
       ))}

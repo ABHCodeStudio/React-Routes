@@ -1,5 +1,8 @@
 import React from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
+import Home from './Home'
+import Services from './Services'
+import Products from './Products'
 
 const App = () => {
 

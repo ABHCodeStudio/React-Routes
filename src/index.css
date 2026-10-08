@@ -25,6 +25,8 @@ nav {
     align-items: center;
     height: 100vh;
     flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .box {
@@ -34,6 +36,7 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height: 400px;
     width: 400px;
+    border: 1px solid #ccc;
 }
 
 .box img {
